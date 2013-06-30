@@ -1,0 +1,139 @@
+@font-face {
+font-family: MC;
+src: url('./minecraft.ttf');
+}
+
+body {
+    font-size: 13px;
+	font-family:MC;
+	color: #FFF;
+	margin: 0px;
+	padding: 20px 10px 0px;
+	background:url(images/temp.jpg) top center no-repeat fixed #09F;
+}
+
+.panel{
+	width:890px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+
+.wrapper{
+	width:890px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+.rounding{
+	border-radius:15px;
+	box-shadow:0px 0px 10px #FFF;
+	width:700px;
+	height:394px;
+	}
+
+.button{
+	    float:left;
+		font-family:MC;
+	    width:auto;
+		height:15px;
+		border: 3px #090 outset;
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:10px;
+		padding-bottom:10px;
+		margin-right:5px;
+		
+		
+		background: #b4ddb4; /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#b4ddb4), color-stop(17%,#83c783), color-stop(33%,#52b152), color-stop(67%,#008a00), color-stop(83%,#005700), color-stop(100%,#002400)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(-45deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(-45deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(-45deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* IE10+ */
+        background: linear-gradient(135deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+
+body a{
+	color:#FFF;
+	text-decoration:none;
+	}
+
+.button:hover{
+	border: 3px #090 outset;
+	background: #b4ddb4; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #b4ddb4 0%, #83c783 17%, #52b152 33%, #008a00 67%, #005700 83%, #002400 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#b4ddb4), color-stop(17%,#83c783), color-stop(33%,#52b152), color-stop(67%,#008a00), color-stop(83%,#005700), color-stop(100%,#002400)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* IE10+ */
+background: linear-gradient(45deg,  #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+
+.mainframe a {
+	color:#06F;
+	}
+
+.mainframe {
+	font-family:MC;
+	width:510px; 
+	margin-left:auto; 
+	margin-right:auto; 
+	border:#EEE solid 2px; 
+	border-radius:15px; 
+	box-shadow:0px 0px 10px #000000; 
+	padding:15px; 
+	background-color:#FFF; 
+	color:#000; 
+	background:url(images/miniback.jpg) top center no-repeat;
+	box-shadow:0px 0px 15px #FFF;
+	}
+.textfield {
+	font-family:MC;
+	color: #333333;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	padding-left: 1px;
+}
+h1 {
+	font-family:MC;
+	font-size:17px;
+	color: #FFF;
+/*	text-shadow:2px 2px 5px #FFFFFF; */
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	border-bottom: 1px dashed #E6E8ED;
+}
+
+.mainframe h1 {
+	font-family:MC;
+	font-size:17px;
+	color: #009933;
+/*	text-shadow:2px 2px 5px #FFFFFF; */
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	border-bottom: 1px dashed #E6E8ED;
+}
+
+
+a {
+	color: #2D3954;
+}
+a:hover {
+	color: #99CC00;
+}
+.err {
+	color: #FFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+th {
+	text-align: left;
+}
+
+.footer{
+	font-size:9px;
+	float:right;
+	}
